@@ -388,6 +388,11 @@ const Header = () => {
         <div className="offcanvas-body">
           <ul>
             <li className="dropdown">
+              <Link to={"/"}>
+                <span>Home</span> <i className="bi bi-chevron-down" />
+              </Link>
+            </li>
+            <li className="dropdown">
               <span
                 onClick={(e) => e.preventDefault()}
                 data-bs-toggle="dropdown">

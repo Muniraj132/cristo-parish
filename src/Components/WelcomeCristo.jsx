@@ -253,8 +253,7 @@ const WelcomeCristo = () => {
             </div>
             <Link
               to="/dashboard"
-              className="button-primary--light button-primary--small button-primary"
-              style={{ marginLeft: "12em", fontSize: "2em" }}>
+              className="button-primary--light button-primary--small button-primary learmorestyle">
               <span className="button-primary__link">Learn more</span>
               <span className="button-primary__arrow">
                 <svg

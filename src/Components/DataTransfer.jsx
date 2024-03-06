@@ -8,12 +8,12 @@ const DataTransfer = () => {
           <div className="row">
             <div className="col-lg-6 col-12">
               <div className="custom-text-box">
-                <h2 id="datatransfer">Why Choose Paroka?</h2>
+                <h2 id="datatransfer">Why Choose Parokia?</h2>
                 <br />
                 <p className="text-black" id="aboutcontent">
-                  Paroka is a robust online cum Offline application for the
+                  Parokia is a robust online cum Offline application for the
                   integrated data management of a Diocese cum Parish with
-                  facilities manage families, members & sacraments. Paroka is
+                  facilities manage families, members & sacraments. Parokia is
                   accessible at the diocesan, parish, family or individual
                   member level. Diocesan administrator can have access to all
                   information related to the diocese.
