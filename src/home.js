@@ -13,7 +13,6 @@ const Home = () => {
       <Slider />
       <AboutCristo />
       <WelcomeCristo />
-      <br />
       <DataTransfer />
       <Footer />
     </>
