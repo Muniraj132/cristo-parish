@@ -8,13 +8,12 @@ function Sacramental() {
         <div className="Blurbs__blurb-wrapper spacebetween">
           <div className="Blurbs__blurb Blurbs__blurb--card Blurbs__blurb--2">
             <div className="Blurbs__blurb-inner">
-              <a className="Blurbs__title" href="#" target="">
-                <figure className="Blurbs__image"></figure>
-                <h4 className="Blurbs__blurb-heading">
-                  Quickly locate registry entries and preserve your valuable
-                  records.
-                </h4>
-              </a>
+              <figure className="Blurbs__image"></figure>
+              <h4 className="Blurbs__blurb-heading">
+                Quickly locate registry entries and preserve your valuable
+                records.
+              </h4>
+
               <div
                 className="Blurbs__blurb-content"
                 style={{ paddingLeft: 13 }}>
@@ -31,15 +30,11 @@ function Sacramental() {
           </div>
           <div className="Blurbs__blurb Blurbs__blurb--card Blurbs__blurb--2">
             <div className="Blurbs__blurb-inner">
-              <a
-                className="Blurbs__title"
-                href="http://localhost/parish/parish-scheduledsms/"
-                target="">
-                <figure className="Blurbs__image"></figure>
-                <h4 className="Blurbs__blurb-heading">
-                  Preserve valuable sacramental records.
-                </h4>
-              </a>
+              <figure className="Blurbs__image"></figure>
+              <h4 className="Blurbs__blurb-heading">
+                Preserve valuable sacramental records.
+              </h4>
+
               <div
                 className="Blurbs__blurb-content"
                 style={{ paddingLeft: 13 }}>
@@ -57,12 +52,11 @@ function Sacramental() {
           </div>
           <div className="Blurbs__blurb Blurbs__blurb--card Blurbs__blurb--2">
             <div className="Blurbs__blurb-inner">
-              <a className="Blurbs__title" href="#" target="">
-                <figure className="Blurbs__image"></figure>
-                <h4 className="Blurbs__blurb-heading">
-                  Spend less time searching for records.
-                </h4>
-              </a>
+              <figure className="Blurbs__image"></figure>
+              <h4 className="Blurbs__blurb-heading">
+                Spend less time searching for records.
+              </h4>
+
               <div
                 className="Blurbs__blurb-content"
                 style={{ paddingLeft: 13 }}>
@@ -81,12 +75,11 @@ function Sacramental() {
           </div>
           <div className="Blurbs__blurb Blurbs__blurb--card Blurbs__blurb--2">
             <div className="Blurbs__blurb-inner">
-              <a className="Blurbs__title" href="#" target="">
-                <figure className="Blurbs__image"></figure>
-                <h4 className="Blurbs__blurb-heading">
-                  Automatically update your database.
-                </h4>
-              </a>
+              <figure className="Blurbs__image"></figure>
+              <h4 className="Blurbs__blurb-heading">
+                Automatically update your database.
+              </h4>
+
               <div
                 className="Blurbs__blurb-content"
                 style={{ paddingLeft: 13 }}>

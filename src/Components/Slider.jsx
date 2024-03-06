@@ -1,17 +1,17 @@
-import React, { useState } from "react";
+// import React, { useState } from "react";
 
 const Slider = () => {
-  const [activeIndex, setActiveIndex] = useState(0);
+  // const [activeIndex, setActiveIndex] = useState(0);
 
-  const handlePrev = () => {
-    const index = (activeIndex - 1 + 3) % 3; // 3 is the total number of slides
-    setActiveIndex(index);
-  };
+  // const handlePrev = () => {
+  //   const index = (activeIndex - 1 + 3) % 3; // 3 is the total number of slides
+  //   setActiveIndex(index);
+  // };
 
-  const handleNext = () => {
-    const index = (activeIndex + 1) % 3;
-    setActiveIndex(index);
-  };
+  // const handleNext = () => {
+  //   const index = (activeIndex + 1) % 3;
+  //   setActiveIndex(index);
+  // };
 
   const slides = [
     {
@@ -54,9 +54,10 @@ const Slider = () => {
           {slides.map((slide, index) => (
             <div
               key={index}
-              className={`carousel-item ${
-                index === activeIndex ? "active" : ""
-              }`}
+              // className={`carousel-item ${
+              //   index === activeIndex ? "active" : ""
+              // }`}
+              className="carousel-item active"
               style={{ backgroundImage: slide.backgroundImage }}>
               <div className="overlay"></div> {/* Add overlay element */}
               <div className="carousel-container">
