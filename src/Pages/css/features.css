@@ -1,0 +1,209 @@
+.Menu_Block {
+  background-color: #f2f4fc;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+.Menu_Block > .container {
+  max-width: 1200px;
+}
+.Menu_Block__items-wrapper {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.Menu_Block__image {
+  max-width: 1.4em;
+}
+.HeroBasic--center {
+  text-align: center;
+}
+.HeroBasic--light {
+  background-color: #f2f4fc;
+}
+.screen-reader-text {
+  clip: rect(1px, 1px, 1px, 1px);
+  position: absolute !important;
+  white-space: nowrap;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+}
+.HeroBasic__heading {
+  font-size: 2.25em;
+  font-family: Catamaran, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 1.45em;
+  color: #1c2375;
+}
+.Menu_Block__item.active,
+.Menu_Block__item:hover {
+  background-color: #fff;
+  box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.3);
+  /* height: 73px; */
+  .Menu_Block__title {
+    color: #1c2375;
+    border-bottom: 3px #ff7a6b solid;
+  }
+}
+.Menu_Block__item {
+  display: -webkit-box;
+  display: flex;
+  max-width: 47%;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  flex-direction: column;
+  margin: 0.2em;
+  padding: 0.4em 0.3em 0.8em;
+  text-decoration: none;
+  color: #1c2375;
+  box-sizing: border-box;
+  -webkit-transition: all 0.1s ease-in;
+  transition: all 0.1s ease-in;
+}
+.Menu_Block__icon {
+  margin: 0.4em;
+}
+.Menu_Block__item.active .Menu_Block__title,
+.Menu_Block__item:hover .Menu_Block__title {
+  font-weight: 700;
+}
+.Menu_Block__title {
+  position: relative;
+  text-align: center;
+  font-family: Catamaran, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 0.889em;
+  font-weight: 400;
+  -webkit-transition: all 0.1s ease-in;
+  transition: all 0.1s ease-in;
+}
+.Menu_Block__title:after {
+  content: "";
+  position: absolute;
+  opacity: 0;
+  border-bottom: 3px #ff7a6b solid;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  -webkit-transition: all 0.1s ease-in;
+  transition: all 0.1s ease-in;
+}
+.Menu_Block__items-wrapper > * {
+  -webkit-box-flex: 0;
+  flex: 0 50%;
+}
+@media (min-width: 900px) {
+  .Menu_Block__items-wrapper {
+    -webkit-box-pack: center;
+    justify-content: center;
+  }
+  .HeroBasic {
+    padding-top: 3em;
+    padding-bottom: 1em;
+  }
+  .Menu_Block__image {
+    max-width: 2.322em;
+  }
+  .Menu_Block__item {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    flex-direction: row;
+    padding: 0.8em 1.2em 1.1em 0.3em;
+  }
+  .Menu_Block__items-wrapper > * {
+    -webkit-box-flex: 0;
+    flex: 0 auto;
+  }
+  .Menu_Block__title {
+    font-size: 1.389em;
+    font-weight: 700;
+    font-family: Catamaran, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.23em;
+  }
+  .imageformodule {
+    max-width: 90.8%;
+  }
+}
+.Menu_Block__image img {
+  width: 100%;
+}
+
+.Blurbs--light {
+  background-color: #fff;
+}
+.Blurbs {
+  padding-top: 1rem;
+  padding-bottom: 4rem;
+}
+.Blurbs--flat > .container {
+  max-width: 1220px;
+}
+.Blurbs__blurb--flat .Blurbs__image {
+  max-width: 3em;
+  margin-bottom: 0.8em;
+}
+.Blurbs__blurb--flat .Blurbs__blurb-heading {
+  color: #ff7a6b;
+}
+.Blurbs__image {
+  display: block;
+  flex-shrink: 0;
+  margin-right: 0.8em;
+}
+.Blurbs__title {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  flex-direction: row;
+  -webkit-box-align: center;
+  align-items: center;
+  margin-top: 0.5em;
+  text-decoration: none;
+}
+/* Define modal styles */
+.gallery-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  z-index: 1000; /* Ensure it's above other content */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gallery-content {
+  max-width: 90%; /* Adjust the width as needed */
+  max-height: 80%; /* Adjust the height as needed */
+  overflow: auto; /* Enable scrolling if content exceeds dimensions */
+}
+
+/* Hide scrollbar on modal */
+.gallery-content::-webkit-scrollbar {
+  display: none;
+}
+
+/* Optional: Add styles for the close button */
+.gallery-close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  color: #fff;
+  background: none;
+  border: none;
+  font-size: 20px;
+}
