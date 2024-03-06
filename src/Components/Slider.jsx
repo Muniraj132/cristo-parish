@@ -68,6 +68,12 @@ const Slider = () => {
                   <p
                     className="animate__animated animate__fadeInUp"
                     dangerouslySetInnerHTML={{ __html: slide.content }}></p>
+                  <button
+                    data-toggle="modal"
+                    data-target="#exampleModalCenter"
+                    className="btn btn-primary getstarted">
+                    Request For Demo
+                  </button>
                 </div>
               </div>
             </div>
